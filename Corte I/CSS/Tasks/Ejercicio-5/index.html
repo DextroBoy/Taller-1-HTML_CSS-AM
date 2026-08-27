@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 CSS - Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+       <h1>Propiedad Display</h1>
+
+    <h2>1. DISPLAY: BLOCK</h2>
+    <div class="div-1">Div 1 (block)</div>
+    <div class="div-2">Div 2 (block)</div>
+    <div class="div-3">Div 3 (block)</div>
+
+    <h2>2. DISPLAY: INLINE</h2>
+    <span class="span-1">Span 1 (inline)</span>
+    <span class="span-2">Span 2 (inline)</span>
+    <span class="span-3">Span 3 (inline)</span>
+
+    <h2>3. DISPLAY: INLINE-BLOCK</h2>
+    <span class="inline-block-1">inline-block 1</span>
+    <span class="inline-block-2">inline-block 2</span>
+    <span class="inline-block-3">inline-block 3</span>
+
+    <h2>4. DISPLAY: NONE</h2>
+    <p>Este párrafo está visible.</p>
+    <p class="oculto">Este párrafo está oculto (display: none).</p>
+    <p>Este párrafo también está visible.</p>
+
+    <hr>
+
+<h2> Explicación de las diferencias observadas</h2>
+
+<ul>
+    <li>
+        <strong>display: block</strong>  Los elementos ocupan todo el ancho 
+        disponible y empiezan en una nueva línea. Se pueden modificar su 
+        <strong>width</strong> y <strong>height </strong>. Ejemplo: los <strong>div</strong>
+    </li>
+    <br>
+     </li>
+    <br>
+    <li>
+        <strong>display: inline</strong>  Los elementos se colocan en la 
+        misma línea, solo ocupan el espacio de su contenido. No se les puede 
+        modificar el <strong>width</strong> ni el <strong>height</strong>. 
+        Ejemplo: los <strong>span</strong>.
+    </li>
+    <br>
+    <li>
+        <strong>display: inline-block</strong>  Es una mezcla: los elementos 
+        se colocan en la misma línea, pero aceptan 
+        <strong>width</strong> y <strong>height</strong>. 
+        Es útil para crear botones o tarjetas alineadas horizontalmente.
+    </li>
+    <br>
+    <li>
+        <strong>display: none</strong>  Oculta completamente el elemento. 
+        Desaparece de la pantalla y <strong>no ocupa espacio</strong> en la página.
+    </li>
+</ul>
+
+</body>
+</html>
