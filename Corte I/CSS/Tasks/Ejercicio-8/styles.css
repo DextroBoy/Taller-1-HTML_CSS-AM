@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px 0;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        width: 95%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    main p {
+        font-size: 16px;
+    }}
